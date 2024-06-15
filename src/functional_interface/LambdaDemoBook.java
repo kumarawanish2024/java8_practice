@@ -9,7 +9,7 @@ public class LambdaDemoBook{
         demoBook.add(5, 10);
 
 
-        BiConsumer<Integer, Integer> biConsumer = (a, b) -> System.out.println(a+b);
+        BiConsumer<Integer, Integer> biConsumer = (a, b) -> System.out.println(a*b);
 
         biConsumer.accept(10, 15);
     }
